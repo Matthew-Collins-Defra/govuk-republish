@@ -1,0 +1,31 @@
+version: "3.4"
+
+services:
+  development:
+    build:
+      args:
+        PORT: ${PORT}
+      context: ./
+      target: development
+    command: npm run watch:build
+    volumes:
+      - "./.git/:/home/node/.git/" # `jest --watch` requires git
+      - "./client/:/home/node/client/"
+      - "./server/:/home/node/server/"
+      - "./test/:/home/node/test/"
+      - "./test-output/:/home/node/test-output/"
+      - "./index.js:/home/node/index.js"
+      - "./package.json:/home/node/package.json"
+
+  pa11y:
+    build:
+      context: ./
+      dockerfile: ./docker/pa11y.Dockerfile
+    depends_on:
+      - web
+
+  web:
+    volumes:
+      - "./index.js:/home/node/index.js"
+      - "./client/:/home/node/client/"
+      - "./server/:/home/node/server/"

@@ -1,0 +1,90 @@
+trigger:
+  - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  - group: containergroup
+  - name: containerImage
+    value: elm-lmp-web:$(Build.BuildId)
+  - name: repository
+    value: elm-lmp-web
+  - name: testOutputDir
+    value: test-output
+
+steps:
+- bash: mkdir $(testOutputDir)/ && chmod 777 $(testOutputDir)/
+  displayName: Create test output folder
+
+- task: DockerCompose@0
+  displayName: Build container images
+  inputs:
+    action: Build services
+    azureSubscriptionEndpoint: $(azureSubscriptionEndpoint)
+    azureContainerRegistry: $(azureContainerRegistry)
+    containerregistrytype: Azure Container Registry
+    dockerComposeFile: docker-compose.yml
+    additionalDockerComposeFiles: docker-compose.override.yml
+    dockerComposeFileArgs: |
+      PORT=3000
+    projectName: elm-lmp
+    qualifyImageNames: true
+
+- task: DockerCompose@0
+  displayName: Unit test
+  inputs:
+    action: Run a specific service
+    azureSubscriptionEndpoint: $(azureSubscriptionEndpoint)
+    azureContainerRegistry: $(azureContainerRegistry)
+    containerregistrytype: Azure Container Registry
+    dockerComposeFile: docker-compose.yml
+    additionalDockerComposeFiles: docker-compose.override.yml
+    dockerComposeFileArgs: |
+      PORT=3000
+    detached: false
+    projectName: elm-lmp
+    qualifyImageNames: true
+    serviceName: development
+    containerCommand: npm run test
+
+- task: DockerCompose@0
+  displayName: Pa11y
+  inputs:
+    action: Run a specific service
+    azureSubscriptionEndpoint: $(azureSubscriptionEndpoint)
+    azureContainerRegistry: $(azureContainerRegistry)
+    containerregistrytype: Azure Container Registry
+    dockerComposeFile: docker-compose.yml
+    additionalDockerComposeFiles: docker-compose.override.yml
+    dockerComposeFileArgs: |
+      PORT=3000
+    detached: false
+    projectName: elm-lmp
+    qualifyImageNames: true
+    serviceName: pa11y
+
+- task: PublishTestResults@2
+  displayName: Publish unit test results
+  inputs:
+    failTaskOnFailedTests: true
+    testResultsFormat: JUnit
+    testResultsFiles: $(testOutputDir)/junit.xml
+    testRunTitle: Unit Test
+
+- task: PublishCodeCoverageResults@1
+  displayName: Publish code coverage
+  inputs:
+    codeCoverageTool: Cobertura
+    summaryFileLocation: $(testOutputDir)/cobertura-coverage.xml
+
+- task: DockerCompose@0
+  displayName: Push production images
+  inputs:
+    action: Push services
+    azureSubscriptionEndpoint: $(azureSubscriptionEndpoint)
+    azureContainerRegistry: $(azureContainerRegistry)
+    containerregistrytype: Azure Container Registry
+    dockerComposeFile: docker-compose.yml
+    projectName: elm-lmp
+    qualifyImageNames: true

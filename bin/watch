@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+test ! "$@" = "" && watcher="$@" || watcher="unit"
+
+# Run the specified watch command in a development container
+docker-compose \
+    --project-name elm-lmp-app \
+    run development \
+    npm run watch:${watcher}

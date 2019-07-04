@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+docker-compose \
+    --project-name elm-lmp-app \
+    build "$@"

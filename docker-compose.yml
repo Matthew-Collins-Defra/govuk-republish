@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  web:
+    build:
+      args:
+        PORT: ${PORT}
+      context: ./
+      target: production

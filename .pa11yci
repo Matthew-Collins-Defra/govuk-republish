@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "chromeLaunchConfig": {
+      "args": [
+        "--disable-dev-shm-usage",
+        "--no-sandbox"
+      ],
+      "executablePath": "/usr/bin/chromium-browser"
+    },
+    "timeout": 5000
+  },
+  "urls": [
+    {
+      "url": "http://web:3000/",
+      "ignore": [
+        "WCAG2AA.Principle1.Guideline1_3.1_3_1.F92,ARIA4"
+      ]
+    }
+  ]
+}

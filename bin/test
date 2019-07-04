@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# Code quality tests
+docker-compose \
+    --project-name elm-lmp-app \
+    run development \
+    npm run test
+
+# Pa11y
+docker-compose \
+    --project-name elm-lmp-app \
+    run pa11y

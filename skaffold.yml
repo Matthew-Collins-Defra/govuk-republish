@@ -1,0 +1,54 @@
+apiVersion: skaffold/v1beta11
+kind: Config
+
+profiles:
+- name: development
+  activation:
+  - command: dev
+  patches:
+  - op: replace
+    path: /build/artifacts/0/docker/target
+    value: development
+  - op: replace
+    path: /build/artifacts/1/docker/target
+    value: development
+
+build:
+  artifacts:
+  - image: elm-lmp-app_web
+    context: .
+    docker:
+      dockerfile: Dockerfile
+      target: production
+      buildArgs:
+        PORT: 3000
+    sync:
+      manual:
+      - src: '**/*.js'
+        dest: .
+      - src: '**/*.njk'
+        dest: .
+
+  - image: elm-lmp-api_api
+    context: ../elm-api-boilerplate/
+    docker:
+      dockerfile: Dockerfile
+      target: production
+      buildArgs:
+        PORT: 3000
+    sync:
+      manual:
+      - src: '**/*.js'
+        dest: .
+
+  local:
+    push:
+
+deploy:
+  kubectl:
+    manifests:
+    - kubernetes/api.yml
+    - kubernetes/web.yml
+    remoteManifests:
+    - https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/mandatory.yaml
+    - https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/cloud-generic.yaml

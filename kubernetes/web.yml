@@ -1,0 +1,57 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+  name: web-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /?(.*)
+        backend:
+          serviceName: elm-lmp-app
+          servicePort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.component: elm-lmp-app
+  name: elm-lmp-app
+spec:
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+  selector:
+    app.component: elm-lmp-app
+status:
+  loadBalancer: {}
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app.component: elm-lmp-app
+  name: elm-lmp-app
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app.component: elm-lmp-app
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: "3000"
+        image: elm-lmp-app_web:latest
+        name: elm-lmp-app
+        ports:
+        - containerPort: 3000
+        resources: {}
+      restartPolicy: Always
+status: {}

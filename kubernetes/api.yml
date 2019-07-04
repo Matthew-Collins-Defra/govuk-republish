@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.component: elm-lmp-api
+  name: elm-lmp-api
+spec:
+  ports:
+  - port: 3001
+    protocol: TCP
+  selector:
+    app.component: elm-lmp-api
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app.component: elm-lmp-api
+  name: elm-lmp-api
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app.component: elm-lmp-api
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value: "3001"
+        image: elm-lmp-api_api:latest
+        name: elm-lmp-api
+        ports:
+        - containerPort: 3001
+        resources: {}
+      restartPolicy: Always
+status: {}
