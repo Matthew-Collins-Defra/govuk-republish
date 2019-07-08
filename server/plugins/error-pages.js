@@ -26,8 +26,10 @@ module.exports = {
             message: response.message
           })
 
-          // The return the `500` view
-          return h.view('500').code(statusCode)
+          if (statusCode !== 401) {
+            // The return the `500` view
+            return h.view('500').code(statusCode)
+          }
         }
         return h.continue
       })

@@ -4,7 +4,7 @@ const joi = require('joi')
 const schema = {
   port: joi.number().default(3000),
   env: joi.string().valid('development', 'test', 'production').default('development'),
-  apibase: joi.string().default('http://elm-lmp-api:3001/')
+  apibase: joi.string().default('https://www.gov.uk/api/content/')
 }
 
 // Build config
