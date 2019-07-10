@@ -1,0 +1,577 @@
+{
+  "analytics_identifier": null,
+  "base_path": "/countryside-stewardship-grants/concrete-yard-renewal-rp15",
+  "content_id": "f908a214-6837-4cc9-90eb-0ce91c32b597",
+  "document_type": "countryside_stewardship_grant",
+  "first_published_at": "2015-04-02T10:50:56.000+00:00",
+  "locale": "en",
+  "phase": "live",
+  "public_updated_at": "2019-06-11T11:43:34.000+00:00",
+  "publishing_app": "specialist-publisher",
+  "publishing_scheduled_at": null,
+  "rendering_app": "government-frontend",
+  "scheduled_publishing_delay_seconds": null,
+  "schema_name": "specialist_document",
+  "title": "RP15: Concrete yard renewal",
+  "updated_at": "2019-07-09T09:23:59.887Z",
+  "withdrawn_notice": {},
+  "publishing_request_id": "17333-1560253414.201-10.3.3.1-1610",
+  "links": {
+    "organisations": [
+      {
+        "analytics_identifier": "EA58",
+        "api_path": "/api/content/government/organisations/rural-payments-agency",
+        "base_path": "/government/organisations/rural-payments-agency",
+        "content_id": "e8fae147-6232-4163-a3f1-1c15b755a8a4",
+        "description": "We pay out over £2 billion each year to support a thriving farming and food sector. RPA is an executive agency, sponsored by the Department for Environment, Food \u0026 Rural Affairs , supported by 1 public body .",
+        "document_type": "organisation",
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Rural Payments Agency",
+        "withdrawn": false,
+        "details": {
+          "logo": {
+            "formatted_title": "Rural Payments \u003cbr/\u003eAgency",
+            "crest": "single-identity"
+          },
+          "brand": "department-for-environment-food-rural-affairs",
+          "default_news_image": null
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/organisations/rural-payments-agency",
+        "web_url": "https://www.gov.uk/government/organisations/rural-payments-agency"
+      },
+      {
+        "analytics_identifier": "PB202",
+        "api_path": "/api/content/government/organisations/natural-england",
+        "base_path": "/government/organisations/natural-england",
+        "content_id": "d3ce4ba7-bc75-46b4-89d9-38cb3240376d",
+        "description": "We’re the government’s adviser for the natural environment in England, helping to protect England’s nature and landscapes for people to enjoy and for the services they provide. Natural England is an executive non-departmental public body, sponsored by the Department for Environment, Food \u0026 Rural Affairs .",
+        "document_type": "organisation",
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Natural England",
+        "withdrawn": false,
+        "details": {
+          "logo": {
+            "formatted_title": "Natural England",
+            "image": {
+              "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/202/NatEng_logo_New-Green.png",
+              "alt_text": "Natural England"
+            }
+          },
+          "brand": "department-for-environment-food-rural-affairs",
+          "default_news_image": {
+            "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/132/s300_natural-england6.jpg",
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/132/s960_natural-england6.jpg"
+          }
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/organisations/natural-england",
+        "web_url": "https://www.gov.uk/government/organisations/natural-england"
+      }
+    ],
+    "primary_publishing_organisation": [
+      {
+        "analytics_identifier": "EA58",
+        "api_path": "/api/content/government/organisations/rural-payments-agency",
+        "base_path": "/government/organisations/rural-payments-agency",
+        "content_id": "e8fae147-6232-4163-a3f1-1c15b755a8a4",
+        "description": "We pay out over £2 billion each year to support a thriving farming and food sector. RPA is an executive agency, sponsored by the Department for Environment, Food \u0026 Rural Affairs , supported by 1 public body .",
+        "document_type": "organisation",
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Rural Payments Agency",
+        "withdrawn": false,
+        "details": {
+          "logo": {
+            "formatted_title": "Rural Payments \u003cbr/\u003eAgency",
+            "crest": "single-identity"
+          },
+          "brand": "department-for-environment-food-rural-affairs",
+          "default_news_image": null
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/organisations/rural-payments-agency",
+        "web_url": "https://www.gov.uk/government/organisations/rural-payments-agency"
+      }
+    ],
+    "suggested_ordered_related_items": [
+      {
+        "api_path": "/api/content/countryside-stewardship-grants/roofing-sprayer-washdown-area-manure-storage-area-livestock-gathering-area-slurry-stores-silage-stores-rp28",
+        "base_path": "/countryside-stewardship-grants/roofing-sprayer-washdown-area-manure-storage-area-livestock-gathering-area-slurry-stores-silage-stores-rp28",
+        "content_id": "1d25808b-b1ed-41ab-af6c-ad22805a598a",
+        "description": "Find out about eligibility and requirements for the roofing (sprayer washdown area, manure storage area, livestock gathering area, slurry stores, silage stores) item.",
+        "document_type": "countryside_stewardship_grant",
+        "locale": "en",
+        "public_updated_at": "2016-03-29T15:57:19Z",
+        "schema_name": "specialist_document",
+        "title": "RP28: Roofing (sprayer washdown area, manure storage area, livestock gathering area, slurry stores, silage stores) ",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants/roofing-sprayer-washdown-area-manure-storage-area-livestock-gathering-area-slurry-stores-silage-stores-rp28",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants/roofing-sprayer-washdown-area-manure-storage-area-livestock-gathering-area-slurry-stores-silage-stores-rp28"
+      },
+      {
+        "api_path": "/api/content/countryside-stewardship-grants/livestock-and-machinery-hardcore-tracks-rp4",
+        "base_path": "/countryside-stewardship-grants/livestock-and-machinery-hardcore-tracks-rp4",
+        "content_id": "58eff47d-13d7-40af-ba46-d1fc6047f690",
+        "description": "Find out about eligibility and requirements for the livestock and machinery hardcore tracks item.",
+        "document_type": "countryside_stewardship_grant",
+        "locale": "en",
+        "public_updated_at": "2017-03-10T10:32:02Z",
+        "schema_name": "specialist_document",
+        "title": "RP4: Livestock and machinery hardcore tracks",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants/livestock-and-machinery-hardcore-tracks-rp4",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants/livestock-and-machinery-hardcore-tracks-rp4"
+      },
+      {
+        "api_path": "/api/content/countryside-stewardship-grants/above-ground-tanks-rp18",
+        "base_path": "/countryside-stewardship-grants/above-ground-tanks-rp18",
+        "content_id": "b99137af-6336-496f-bda6-70ee80cd66b2",
+        "description": "Find out about eligibility and requirements for the above ground tanks item.",
+        "document_type": "countryside_stewardship_grant",
+        "locale": "en",
+        "public_updated_at": "2016-03-29T16:16:24Z",
+        "schema_name": "specialist_document",
+        "title": "RP18: Above ground tanks ",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants/above-ground-tanks-rp18",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants/above-ground-tanks-rp18"
+      },
+      {
+        "api_path": "/api/content/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "base_path": "/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "content_id": "5bdde33c-c200-4245-925b-8d5dcd075546",
+        "description": "Funding and eligibility information for Mid Tier applicants for 2019 applications.",
+        "document_type": "guidance",
+        "locale": "en",
+        "public_updated_at": "2019-05-31T23:15:07Z",
+        "schema_name": "publication",
+        "title": "Mid Tier: Countryside Stewardship",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "web_url": "https://www.gov.uk/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual"
+      },
+      {
+        "api_path": "/api/content/countryside-stewardship-grants/yard-underground-drainage-pipework-rp13",
+        "base_path": "/countryside-stewardship-grants/yard-underground-drainage-pipework-rp13",
+        "content_id": "5b0fd471-9af4-42f6-9a46-fbf6d75672d1",
+        "description": "Find out about eligibility and requirements for the yard - underground drainage pipework item.",
+        "document_type": "countryside_stewardship_grant",
+        "locale": "en",
+        "public_updated_at": "2017-03-10T10:33:19Z",
+        "schema_name": "specialist_document",
+        "title": "RP13: Yard - underground drainage pipework ",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants/yard-underground-drainage-pipework-rp13",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants/yard-underground-drainage-pipework-rp13"
+      }
+    ],
+    "taxons": [
+      {
+        "api_path": "/api/content/environment/countryside",
+        "base_path": "/environment/countryside",
+        "content_id": "9129d716-365b-44ba-9856-383423fe1e41",
+        "document_type": "taxon",
+        "locale": "en",
+        "public_updated_at": "2018-09-05T16:13:11Z",
+        "schema_name": "taxon",
+        "title": "Countryside",
+        "withdrawn": false,
+        "details": {
+          "internal_name": "Countryside [M]",
+          "notes_for_editors": "",
+          "visible_to_departmental_editors": false
+        },
+        "phase": "live",
+        "links": {
+          "parent_taxons": [
+            {
+              "api_path": "/api/content/environment/rural-and-countryside",
+              "base_path": "/environment/rural-and-countryside",
+              "content_id": "9949c2c1-ff96-4b4f-b584-c700e316c9de",
+              "document_type": "taxon",
+              "locale": "en",
+              "public_updated_at": "2018-09-05T16:13:10Z",
+              "schema_name": "taxon",
+              "title": "Rural and countryside",
+              "withdrawn": false,
+              "details": {
+                "internal_name": "Rural and countryside (merged, level 2)",
+                "notes_for_editors": "",
+                "visible_to_departmental_editors": false
+              },
+              "phase": "live",
+              "links": {
+                "parent_taxons": [
+                  {
+                    "api_path": "/api/content/environment",
+                    "base_path": "/environment",
+                    "content_id": "3cf97f69-84de-41ae-bc7b-7e2cc238fa58",
+                    "description": "",
+                    "document_type": "taxon",
+                    "locale": "en",
+                    "public_updated_at": "2018-09-16T13:39:00Z",
+                    "schema_name": "taxon",
+                    "title": "Environment",
+                    "withdrawn": false,
+                    "details": {
+                      "internal_name": "Environment",
+                      "notes_for_editors": "",
+                      "visible_to_departmental_editors": true
+                    },
+                    "phase": "live",
+                    "links": {
+                      "root_taxon": [
+                        {
+                          "api_path": "/api/content/",
+                          "base_path": "/",
+                          "content_id": "f3bbdec2-0e62-4520-a7fd-6ffd5d36e03a",
+                          "description": "",
+                          "document_type": "homepage",
+                          "locale": "en",
+                          "public_updated_at": "2019-06-21T11:52:37Z",
+                          "schema_name": "homepage",
+                          "title": "GOV.UK homepage",
+                          "withdrawn": false,
+                          "links": {},
+                          "api_url": "https://www.gov.uk/api/content/",
+                          "web_url": "https://www.gov.uk/"
+                        }
+                      ]
+                    },
+                    "api_url": "https://www.gov.uk/api/content/environment",
+                    "web_url": "https://www.gov.uk/environment"
+                  }
+                ]
+              },
+              "api_url": "https://www.gov.uk/api/content/environment/rural-and-countryside",
+              "web_url": "https://www.gov.uk/environment/rural-and-countryside"
+            }
+          ]
+        },
+        "api_url": "https://www.gov.uk/api/content/environment/countryside",
+        "web_url": "https://www.gov.uk/environment/countryside"
+      }
+    ],
+    "finder": [
+      {
+        "api_path": "/api/content/countryside-stewardship-grants",
+        "base_path": "/countryside-stewardship-grants",
+        "content_id": "0eb7b150-879a-4c44-becc-718e23a77e2c",
+        "description": "Find information about Countryside Stewardship options, capital items and supplements",
+        "document_type": "finder",
+        "locale": "en",
+        "public_updated_at": "2019-06-26T13:50:02Z",
+        "schema_name": "finder",
+        "title": "Countryside Stewardship grants",
+        "withdrawn": false,
+        "details": {
+          "facets": [
+            {
+              "key": "grant_type",
+              "name": "Grant type",
+              "type": "text",
+              "preposition": "of type",
+              "display_as_result_metadata": false,
+              "filterable": true,
+              "allowed_values": [
+                {
+                  "label": "Option",
+                  "value": "option"
+                },
+                {
+                  "label": "Capital item",
+                  "value": "capital-item"
+                },
+                {
+                  "label": "Supplement",
+                  "value": "supplement"
+                }
+              ]
+            },
+            {
+              "key": "land_use",
+              "name": "Land use",
+              "type": "text",
+              "preposition": "for",
+              "display_as_result_metadata": false,
+              "filterable": true,
+              "allowed_values": [
+                {
+                  "label": "Arable land",
+                  "value": "arable-land"
+                },
+                {
+                  "label": "Boundaries",
+                  "value": "boundaries"
+                },
+                {
+                  "label": "Coast",
+                  "value": "coast"
+                },
+                {
+                  "label": "Educational access",
+                  "value": "educational-access"
+                },
+                {
+                  "label": "Flood risk",
+                  "value": "flood-risk"
+                },
+                {
+                  "label": "Grassland",
+                  "value": "grassland"
+                },
+                {
+                  "label": "Historic environment",
+                  "value": "historic-environment"
+                },
+                {
+                  "label": "Livestock management",
+                  "value": "livestock-management"
+                },
+                {
+                  "label": "Organic land",
+                  "value": "organic-land"
+                },
+                {
+                  "label": "Priority habitats",
+                  "value": "priority-habitats"
+                },
+                {
+                  "label": "Trees (non-woodland)",
+                  "value": "trees-non-woodland"
+                },
+                {
+                  "label": "Uplands",
+                  "value": "uplands"
+                },
+                {
+                  "label": "Vegetation control",
+                  "value": "vegetation-control"
+                },
+                {
+                  "label": "Water quality",
+                  "value": "water-quality"
+                },
+                {
+                  "label": "Pollinators and wildlife",
+                  "value": "wildlife-package"
+                },
+                {
+                  "label": "Woodland",
+                  "value": "woodland"
+                }
+              ]
+            },
+            {
+              "key": "tiers_or_standalone_items",
+              "name": "Tiers or standalone items",
+              "type": "text",
+              "preposition": "for",
+              "display_as_result_metadata": false,
+              "filterable": true,
+              "allowed_values": [
+                {
+                  "label": "Higher Tier",
+                  "value": "higher-tier"
+                },
+                {
+                  "label": "Mid Tier",
+                  "value": "mid-tier"
+                },
+                {
+                  "label": "Offer: Arable",
+                  "value": "offer-arable"
+                },
+                {
+                  "label": "Offer: Lowland Grazing",
+                  "value": "offer-lowland-grazing"
+                },
+                {
+                  "label": "Offer: Mixed Farming",
+                  "value": "offer-mixed-farming"
+                },
+                {
+                  "label": "Offer: Upland",
+                  "value": "offer-upland"
+                },
+                {
+                  "label": "Standalone capital items",
+                  "value": "standalone-capital-items"
+                }
+              ]
+            },
+            {
+              "key": "funding_amount",
+              "name": "Funding (per unit per year)",
+              "type": "text",
+              "preposition": "of",
+              "display_as_result_metadata": false,
+              "filterable": true,
+              "allowed_values": [
+                {
+                  "label": "Up to £100",
+                  "value": "up-to-100"
+                },
+                {
+                  "label": "£101 to £200",
+                  "value": "101-to-200"
+                },
+                {
+                  "label": "£201 to £300",
+                  "value": "201-to-300"
+                },
+                {
+                  "label": "£301 to £400",
+                  "value": "301-to-400"
+                },
+                {
+                  "label": "£401 to £500",
+                  "value": "401-to-500"
+                },
+                {
+                  "label": "More than £500",
+                  "value": "more-than-500"
+                },
+                {
+                  "label": "Up to 50% actual costs",
+                  "value": "up-to-50-actual-costs"
+                },
+                {
+                  "label": "More than 50% actual costs",
+                  "value": "more-than-50-actual-costs"
+                }
+              ]
+            }
+          ]
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants"
+      }
+    ],
+    "available_translations": [
+      {
+        "title": "RP15: Concrete yard renewal",
+        "public_updated_at": "2019-06-11T11:43:34Z",
+        "document_type": "countryside_stewardship_grant",
+        "schema_name": "specialist_document",
+        "base_path": "/countryside-stewardship-grants/concrete-yard-renewal-rp15",
+        "description": "Find out about eligibility and requirements for the concrete yard renewal item.",
+        "api_path": "/api/content/countryside-stewardship-grants/concrete-yard-renewal-rp15",
+        "withdrawn": false,
+        "content_id": "f908a214-6837-4cc9-90eb-0ce91c32b597",
+        "locale": "en",
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants/concrete-yard-renewal-rp15",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants/concrete-yard-renewal-rp15",
+        "links": {}
+      }
+    ]
+  },
+  "description": "Find out about eligibility and requirements for the concrete yard renewal item.",
+  "details": {
+    "body": "\u003ch2 id=\"how-much-will-be-paid\"\u003eHow much will be paid\u003c/h2\u003e\n\n\u003cp\u003e£27.14 per square metre.   \u003c/p\u003e\n\n\u003ch2 id=\"where-to-use-this-item\"\u003eWhere to use this item\u003c/h2\u003e\n\n\u003cp\u003eAvailable for Mid Tier and Higher Tier\u003c/p\u003e\n\n\u003cp\u003eOnly:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003ein areas targeted for the reduction of water pollution from agriculture\u003c/li\u003e\n  \u003cli\u003ewith support from a Catchment Sensitive Farming officer\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch2 id=\"where-this-item-cannot-be-used\"\u003eWhere this item cannot be used\u003c/h2\u003e\n\n\u003cul\u003e\n  \u003cli\u003eon covered or indoor yards\u003c/li\u003e\n  \u003cli\u003emanure, silage or slurry stores\u003c/li\u003e\n  \u003cli\u003eareas housing livestock\u003c/li\u003e\n  \u003cli\u003eon environmental, historic or archaeological features identified on the Farm Environment Record (\u003cabbr title=\"farm environment record\"\u003eFER\u003c/abbr\u003e), the Environmental Information Map or the \u003cabbr title=\"historic environment farm environment record\"\u003eHEFER\u003c/abbr\u003e\n\u003c/li\u003e\n  \u003cli\u003ewithout relevant advice or permission from the Local Planning Authority\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch2 id=\"how-this-item-will-benefit-the-environment\"\u003eHow this item will benefit the environment\u003c/h2\u003e\n\u003cp\u003eIt improves or upgrades existing outdoor (uncovered) yard drainage to reduce foul drainage volumes, runoff and risk of water pollution.\u003c/p\u003e\n\n\u003ch2 id=\"requirements\"\u003eRequirements\u003c/h2\u003e\n\n\u003cul\u003e\n  \u003cli\u003econstruct an upgraded concrete base to manage yard run-off, whilst not increasing the risk of silage or manure effluent loss\u003c/li\u003e\n  \u003cli\u003econstruct the base with concrete (a minimum of 150mm thick) on compacted and blinded hardcore that is at least 150mm thick\u003c/li\u003e\n  \u003cli\u003ereinforce the concrete base to minimise cracking and distribute the loads exerted by livestock or farm vehicles\u003c/li\u003e\n  \u003cli\u003elay the concrete in bays and treat all joints with sealant that is resistant to effluent damage\u003c/li\u003e\n  \u003cli\u003eonly fully load the concrete when it achieves its design strength (equivalent to 28 day strength)\u003c/li\u003e\n  \u003cli\u003eensure that all work meets relevant \u003ca rel=\"external\" href=\"http://www.bsigroup.com/en-GB/standards/british-standards-online-database/\"\u003eBritish Standards\u003c/a\u003e - examine copies of the most up-to-date standards for guidance\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cp\u003eDo not:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003eroof over (even at own expense) an outside yard receiving aid through this item\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch3 id=\"keeping-records\"\u003eKeeping records\u003c/h3\u003e\n\n\u003cp\u003eAgreement holders will need to keep the following records and supply them on request:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003eany consents or permissions connected with the work\u003c/li\u003e\n  \u003cli\u003ereceipted invoices, or bank statements where a receipted invoice is unavailable\u003c/li\u003e\n  \u003cli\u003ephotographs of site before works start\u003c/li\u003e\n  \u003cli\u003eplease see the record keeping and inspection requirements as set out in the \u003ca href=\"https://www.gov.uk/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual\"\u003eMid Tier manual\u003c/a\u003e for more detail\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cp\u003eAgreement holders will need to keep the following records and supply them with the claim:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003ephotographs of the site during the different stages of construction or contracts, invoices or other documents confirming the technical specification for the completed works\u003c/li\u003e\n  \u003cli\u003ephotographs of the completed works in place and installed\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cp\u003eBefore applying, applicants must seek advice from the Local Planning Authority to check if consent is required to carry out the planned work. You do not need to provide this with your application, but you will need to submit consents/permissions with your payment claim. Applicants will have to send the following with their application:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003ewritten support from a \u003cabbr title=\"Catchment Sensitive Farming\"\u003eCSF\u003c/abbr\u003e officer\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch2 id=\"related-mid-tier-items\"\u003eRelated Mid Tier items\u003c/h2\u003e\n\n\u003cp\u003eThis item can be used on the same area as the following items:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003e\u003ca href=\"https://www.gov.uk/countryside-stewardship-grants/cross-drains-rp5\"\u003eRP5 - Cross drains\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href=\"https://www.gov.uk/countryside-stewardship-grants/yard-underground-drainage-pipework-rp13\"\u003eRP13 - Yard - underground drainage pipework\u003c/a\u003e\u003c/li\u003e\n  \u003cli\u003e\u003ca href=\"https://www.gov.uk/countryside-stewardship-grants/yard-inspection-pit-rp14\"\u003eRP14 - Yard inspection pit\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch2 id=\"advice-and-suggestions-for-how-to-carry-out-this-item\"\u003eAdvice and suggestions for how to carry out this item\u003c/h2\u003e\n\n\u003cp\u003eThe following section gives advice on carrying out this item successfully but does not form part of the requirements for this item.\u003c/p\u003e\n\n\u003cp\u003eThis item can be used:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003ein high traffic areas or in livestock movement and loafing areas\u003c/li\u003e\n  \u003cli\u003eon uncovered outdoor yards made of concrete, hardcore, tarmac or bare earth\u003c/li\u003e\n  \u003cli\u003eto reduce foul drainage volumes, runoff and risk of water pollution\u003c/li\u003e\n  \u003cli\u003eto help separate clean and dirty water\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch3 id=\"get-more-advice\"\u003eGet more advice\u003c/h3\u003e\n\n\u003cp\u003eMore detailed information about using this item is available through Catchment Sensitive Farming (\u003cabbr title=\"Catchment Sensitive Farming\"\u003eCSF\u003c/abbr\u003e). Applicants may also be able to request an infrastructure audit or a slurry and manure handling plan.\u003c/p\u003e\n\n\u003ch3 id=\"keep-clean-and-dirty-water-separate\"\u003eKeep clean and dirty water separate\u003c/h3\u003e\n\n\u003cp\u003eFoul or dirty water should not be allowed to contaminate clean water. Plan how to manage any additional runoff from the impermeable concrete area. Some restructuring of clean and dirty drains may be needed, which may include adding:\u003c/p\u003e\n\n\u003cul\u003e\n  \u003cli\u003ecross drains\u003c/li\u003e\n  \u003cli\u003ecatchpits\u003c/li\u003e\n  \u003cli\u003egulleys\u003c/li\u003e\n  \u003cli\u003ekerbs\u003c/li\u003e\n  \u003cli\u003esleeping policemen\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003ch2 id=\"further-information\"\u003eFurther information\u003c/h2\u003e\n\n\u003cp\u003eThe Rivers Trust has further guidance on \u003ca rel=\"external\" href=\"http://www.theriverstrust.org/media/2017/04/Pinpoint-Water-Management-.pdf\"\u003edirty water separation\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eCatchment Sensitive Farming (\u003cabbr title=\"Catchment Sensitive Farming\"\u003eCSF\u003c/abbr\u003e) operates in parts of the country where there are water quality issues linked to farming. The scheme provides farmers with free advice and training. See guidance for further information on \u003ca href=\"https://www.gov.uk/catchment-sensitive-farming-reduce-agricultural-water-pollution\"\u003e\u003cabbr title=\"Catchment Sensitive Farming\"\u003eCSF\u003c/abbr\u003e support\u003c/a\u003e\u003c/p\u003e\n\n\u003cp\u003eSee the \u003ca href=\"https://www.gov.uk/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual\"\u003eMid Tier manual\u003c/a\u003e or \u003ca href=\"https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-manual\"\u003eHigher Tier manual\u003c/a\u003e to find out more about the scheme and how to apply.\u003c/p\u003e\n\n",
+    "metadata": {
+      "grant_type": "capital-item",
+      "land_use": [
+        "uplands",
+        "water-quality"
+      ],
+      "tiers_or_standalone_items": [
+        "higher-tier",
+        "mid-tier"
+      ],
+      "funding_amount": [
+        "up-to-100"
+      ]
+    },
+    "max_cache_time": 10,
+    "temporary_update_type": false,
+    "headers": [
+      {
+        "text": "How much will be paid",
+        "level": 2,
+        "id": "how-much-will-be-paid"
+      },
+      {
+        "text": "Where to use this item",
+        "level": 2,
+        "id": "where-to-use-this-item"
+      },
+      {
+        "text": "Where this item cannot be used",
+        "level": 2,
+        "id": "where-this-item-cannot-be-used"
+      },
+      {
+        "text": "How this item will benefit the environment",
+        "level": 2,
+        "id": "how-this-item-will-benefit-the-environment"
+      },
+      {
+        "text": "Requirements",
+        "level": 2,
+        "id": "requirements",
+        "headers": [
+          {
+            "text": "Keeping records",
+            "level": 3,
+            "id": "keeping-records"
+          }
+        ]
+      },
+      {
+        "text": "Related Mid Tier items",
+        "level": 2,
+        "id": "related-mid-tier-items"
+      },
+      {
+        "text": "Advice and suggestions for how to carry out this item",
+        "level": 2,
+        "id": "advice-and-suggestions-for-how-to-carry-out-this-item",
+        "headers": [
+          {
+            "text": "Get more advice",
+            "level": 3,
+            "id": "get-more-advice"
+          },
+          {
+            "text": "Keep clean and dirty water separate",
+            "level": 3,
+            "id": "keep-clean-and-dirty-water-separate"
+          }
+        ]
+      },
+      {
+        "text": "Further information",
+        "level": 2,
+        "id": "further-information"
+      }
+    ],
+    "change_history": [
+      {
+        "note": "First published.",
+        "public_timestamp": "2015-04-02T10:50:56.000Z"
+      },
+      {
+        "note": "Information updated for applications in 2016\r\n",
+        "public_timestamp": "2016-03-29T16:24:33.000Z"
+      },
+      {
+        "note": "Updated for 2017 applications.",
+        "public_timestamp": "2017-03-07T17:37:19.937Z"
+      },
+      {
+        "note": "Additional bullet added * without relevant advice or permission from the Local Planning Authority under the Where this item cannot be used section",
+        "public_timestamp": "2019-06-11T11:43:10.029Z"
+      }
+    ]
+  }
+}

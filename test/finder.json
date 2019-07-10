@@ -1,0 +1,313 @@
+{
+  "analytics_identifier": null,
+  "base_path": "/countryside-stewardship-grants",
+  "content_id": "0eb7b150-879a-4c44-becc-718e23a77e2c",
+  "document_type": "finder",
+  "first_published_at": "2015-08-17T13:28:37.000+00:00",
+  "locale": "en",
+  "phase": "live",
+  "public_updated_at": "2019-06-26T13:50:02.000+00:00",
+  "publishing_app": "specialist-publisher",
+  "publishing_scheduled_at": null,
+  "rendering_app": "finder-frontend",
+  "scheduled_publishing_delay_seconds": null,
+  "schema_name": "finder",
+  "title": "Countryside Stewardship grants",
+  "updated_at": "2019-07-09T09:21:58.779Z",
+  "withdrawn_notice": {},
+  "publishing_request_id": "18906-1561557103.160-10.3.3.1-400",
+  "links": {
+    "organisations": [
+      {
+        "analytics_identifier": "EA58",
+        "api_path": "/api/content/government/organisations/rural-payments-agency",
+        "base_path": "/government/organisations/rural-payments-agency",
+        "content_id": "e8fae147-6232-4163-a3f1-1c15b755a8a4",
+        "description": "We pay out over £2 billion each year to support a thriving farming and food sector. RPA is an executive agency, sponsored by the Department for Environment, Food \u0026 Rural Affairs , supported by 1 public body .",
+        "document_type": "organisation",
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Rural Payments Agency",
+        "withdrawn": false,
+        "details": {
+          "logo": {
+            "formatted_title": "Rural Payments \u003cbr/\u003eAgency",
+            "crest": "single-identity"
+          },
+          "brand": "department-for-environment-food-rural-affairs",
+          "default_news_image": null
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/organisations/rural-payments-agency",
+        "web_url": "https://www.gov.uk/government/organisations/rural-payments-agency"
+      },
+      {
+        "analytics_identifier": "PB202",
+        "api_path": "/api/content/government/organisations/natural-england",
+        "base_path": "/government/organisations/natural-england",
+        "content_id": "d3ce4ba7-bc75-46b4-89d9-38cb3240376d",
+        "description": "We’re the government’s adviser for the natural environment in England, helping to protect England’s nature and landscapes for people to enjoy and for the services they provide. Natural England is an executive non-departmental public body, sponsored by the Department for Environment, Food \u0026 Rural Affairs .",
+        "document_type": "organisation",
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Natural England",
+        "withdrawn": false,
+        "details": {
+          "logo": {
+            "formatted_title": "Natural England",
+            "image": {
+              "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/202/NatEng_logo_New-Green.png",
+              "alt_text": "Natural England"
+            }
+          },
+          "brand": "department-for-environment-food-rural-affairs",
+          "default_news_image": {
+            "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/132/s300_natural-england6.jpg",
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/132/s960_natural-england6.jpg"
+          }
+        },
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/organisations/natural-england",
+        "web_url": "https://www.gov.uk/government/organisations/natural-england"
+      }
+    ],
+    "related": [
+      {
+        "api_path": "/api/content/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "base_path": "/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "content_id": "5bdde33c-c200-4245-925b-8d5dcd075546",
+        "description": "Funding and eligibility information for Mid Tier applicants for 2019 applications.",
+        "document_type": "guidance",
+        "locale": "en",
+        "public_updated_at": "2019-05-31T23:15:07Z",
+        "schema_name": "publication",
+        "title": "Mid Tier: Countryside Stewardship",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual",
+        "web_url": "https://www.gov.uk/government/publications/countryside-stewardship-mid-tier-including-water-quality-capital-items-manual"
+      },
+      {
+        "api_path": "/api/content/government/publications/countryside-stewardship-higher-tier-manual",
+        "base_path": "/government/publications/countryside-stewardship-higher-tier-manual",
+        "content_id": "975ad786-7d28-4189-b635-961395e19954",
+        "description": "Funding and eligibility information for Higher Tier applicants for 2019.",
+        "document_type": "guidance",
+        "locale": "en",
+        "public_updated_at": "2019-05-15T14:40:11Z",
+        "schema_name": "publication",
+        "title": "Higher Tier: Countryside Stewardship",
+        "withdrawn": false,
+        "links": {},
+        "api_url": "https://www.gov.uk/api/content/government/publications/countryside-stewardship-higher-tier-manual",
+        "web_url": "https://www.gov.uk/government/publications/countryside-stewardship-higher-tier-manual"
+      }
+    ],
+    "available_translations": [
+      {
+        "title": "Countryside Stewardship grants",
+        "public_updated_at": "2019-06-26T13:50:02Z",
+        "document_type": "finder",
+        "schema_name": "finder",
+        "base_path": "/countryside-stewardship-grants",
+        "description": "Find information about Countryside Stewardship options, capital items and supplements",
+        "api_path": "/api/content/countryside-stewardship-grants",
+        "withdrawn": false,
+        "content_id": "0eb7b150-879a-4c44-becc-718e23a77e2c",
+        "locale": "en",
+        "api_url": "https://www.gov.uk/api/content/countryside-stewardship-grants",
+        "web_url": "https://www.gov.uk/countryside-stewardship-grants",
+        "links": {}
+      }
+    ]
+  },
+  "description": "Find information about Countryside Stewardship options, capital items and supplements",
+  "details": {
+    "document_noun": "grant",
+    "filter": {
+      "document_type": "countryside_stewardship_grant"
+    },
+    "format_name": "Countryside Stewardship grant",
+    "show_summaries": false,
+    "summary": "\u003cp\u003eFind options, supplements and capital items to include in your application for Countryside Stewardship. See \u003ca href=\"government/collections/countryside-stewardship-information-for-agreement-holders\"\u003einformation for agreement holders\u003c/a\u003e for earlier versions. Check your \u003ca href=\"/government/publications/check-evidence-and-record-keeping-requirements-countryside-stewardship\"\u003eevidence and record keeping requirements\u003c/a\u003e before you apply.\u003c/p\u003e",
+    "facets": [
+      {
+        "key": "grant_type",
+        "name": "Grant type",
+        "type": "text",
+        "preposition": "of type",
+        "display_as_result_metadata": false,
+        "filterable": true,
+        "allowed_values": [
+          {
+            "label": "Option",
+            "value": "option"
+          },
+          {
+            "label": "Capital item",
+            "value": "capital-item"
+          },
+          {
+            "label": "Supplement",
+            "value": "supplement"
+          }
+        ]
+      },
+      {
+        "key": "land_use",
+        "name": "Land use",
+        "type": "text",
+        "preposition": "for",
+        "display_as_result_metadata": false,
+        "filterable": true,
+        "allowed_values": [
+          {
+            "label": "Arable land",
+            "value": "arable-land"
+          },
+          {
+            "label": "Boundaries",
+            "value": "boundaries"
+          },
+          {
+            "label": "Coast",
+            "value": "coast"
+          },
+          {
+            "label": "Educational access",
+            "value": "educational-access"
+          },
+          {
+            "label": "Flood risk",
+            "value": "flood-risk"
+          },
+          {
+            "label": "Grassland",
+            "value": "grassland"
+          },
+          {
+            "label": "Historic environment",
+            "value": "historic-environment"
+          },
+          {
+            "label": "Livestock management",
+            "value": "livestock-management"
+          },
+          {
+            "label": "Organic land",
+            "value": "organic-land"
+          },
+          {
+            "label": "Priority habitats",
+            "value": "priority-habitats"
+          },
+          {
+            "label": "Trees (non-woodland)",
+            "value": "trees-non-woodland"
+          },
+          {
+            "label": "Uplands",
+            "value": "uplands"
+          },
+          {
+            "label": "Vegetation control",
+            "value": "vegetation-control"
+          },
+          {
+            "label": "Water quality",
+            "value": "water-quality"
+          },
+          {
+            "label": "Pollinators and wildlife",
+            "value": "wildlife-package"
+          },
+          {
+            "label": "Woodland",
+            "value": "woodland"
+          }
+        ]
+      },
+      {
+        "key": "tiers_or_standalone_items",
+        "name": "Tiers or standalone items",
+        "type": "text",
+        "preposition": "for",
+        "display_as_result_metadata": false,
+        "filterable": true,
+        "allowed_values": [
+          {
+            "label": "Higher Tier",
+            "value": "higher-tier"
+          },
+          {
+            "label": "Mid Tier",
+            "value": "mid-tier"
+          },
+          {
+            "label": "Offer: Arable",
+            "value": "offer-arable"
+          },
+          {
+            "label": "Offer: Lowland Grazing",
+            "value": "offer-lowland-grazing"
+          },
+          {
+            "label": "Offer: Mixed Farming",
+            "value": "offer-mixed-farming"
+          },
+          {
+            "label": "Offer: Upland",
+            "value": "offer-upland"
+          },
+          {
+            "label": "Standalone capital items",
+            "value": "standalone-capital-items"
+          }
+        ]
+      },
+      {
+        "key": "funding_amount",
+        "name": "Funding (per unit per year)",
+        "type": "text",
+        "preposition": "of",
+        "display_as_result_metadata": false,
+        "filterable": true,
+        "allowed_values": [
+          {
+            "label": "Up to £100",
+            "value": "up-to-100"
+          },
+          {
+            "label": "£101 to £200",
+            "value": "101-to-200"
+          },
+          {
+            "label": "£201 to £300",
+            "value": "201-to-300"
+          },
+          {
+            "label": "£301 to £400",
+            "value": "301-to-400"
+          },
+          {
+            "label": "£401 to £500",
+            "value": "401-to-500"
+          },
+          {
+            "label": "More than £500",
+            "value": "more-than-500"
+          },
+          {
+            "label": "Up to 50% actual costs",
+            "value": "up-to-50-actual-costs"
+          },
+          {
+            "label": "More than 50% actual costs",
+            "value": "more-than-50-actual-costs"
+          }
+        ]
+      }
+    ],
+    "default_documents_per_page": 50
+  }
+}
