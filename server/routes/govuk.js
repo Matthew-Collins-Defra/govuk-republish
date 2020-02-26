@@ -6,6 +6,9 @@ module.exports = {
       const route = request.params.route
       const data = await request.server.methods.api.get(route)
       let body = ''
+      if (data.details.image) {
+        body = body + `<img src="${data.details.image.url}" alt="${data.details.image.alt_text}">`
+      }
       if (data.details.body) {
         body = body + data.details.body
       }
